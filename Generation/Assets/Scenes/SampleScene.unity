@@ -302,15 +302,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 451eeaa5538102d4e996de84174ae81a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  drawMode: 1
   mapWidth: 100
   mapHeight: 100
-  noiseScale: 24.41
-  octaves: 10
-  persistance: 0.467
-  lacunarity: 2
-  seed: 47
-  offset: {x: 1.12, y: 0}
+  noiseScale: 30.47
+  octaves: 6
+  persistance: 0.275
+  lacunarity: 1
+  seed: 29
+  offset: {x: 10.44, y: 0}
   autoUpdate: 1
+  regions:
+  - height: 0.4
+    color: {r: 0.15619439, g: 0.5591348, b: 0.8490566, a: 0}
+    name: Water
+  - height: 1
+    color: {r: 0.42827633, g: 0.5943396, b: 0.1541919, a: 0}
+    name: Land
 --- !u!4 &1664094400
 Transform:
   m_ObjectHideFlags: 0
